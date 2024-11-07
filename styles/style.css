@@ -40,19 +40,18 @@
 }
 
 .address {
-    margin: 5px 28px 2px 188px; /* немного подкрутила px в DevTools */
     font-size: 18px;
     line-height: 24.3px;
     font-style: normal;
 }
 
+ .header_address {
+    margin: 5px 28px 2px 188px; /* немного подкрутила px в DevTools */
+}
+
 .address a {
     text-decoration: none;
     border-bottom: 1px #000000 solid;
-}
-
-.header__address {
-    list-style: none;
 }
 
 .cover {
@@ -282,17 +281,6 @@
     padding: 0px 50px 91px;
     display: flex;
     justify-content: space-between;
-}
-
-.footer_address {
-    margin: 0;
-}
-
-.footer__address {
-    list-style: none;
-    font-size: 18px;
-    line-height: 24.3px;
-    font-weight: 400;
 }
 
 .footer__menu {
